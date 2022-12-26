@@ -1,10 +1,68 @@
+2022-01-04 - Merge branch 'pre-release'
+2022-01-04 - Merge branch 'pre-release' of https://github.com/fhem/Timer into master
+
+2022-01-04 - Update 88_Timer.pm
+
+- fix, incorrect monthly calculation on return
+2022-01-04 - Update 88_Timer.pm
+
+- fix, no Timer on 20211230 to 20211231 https://github.com/fhem/Timer/issues/10
+2021-10-21 - Update 88_Timer.pm
+
+- fix Loglevel
+2021-10-21 - Update 88_Timer.pm
+
+- added new cmd onTimer,offTimer, onTimerAll, offTimerAll
+- code optimized
+- fix, ERROR msg if more than 15 timers
+2021-10-14 - Update 88_Timer.pm
+
+- revised commandref
+2021-10-14 - Update CHANGED
+2021-10-14 - Update 88_Timer.pm
+
+- a save button for all changes
+- fronted input field variable in size
+- remove old code
+- revised commandref
+2021-01-20 - revised commandref
+
+- wrong variables named
+2021-01-19 - 88_Timer.pm - added versions internal
+
+2020-12-07 - Update 88_Timer.pm
+
+- fix (Timer not running after shutdown)
+2020-12-02 - Automaitc updated controls and CHANGED
+2020-09-28 - Update 88_Timer.pm
+
+- revised code for Perl::Critic
+2020-09-28 - Update 88_Timer.pm
+
+- revised code for Perl::Critic
+2020-09-28 - Automaitc updated controls and CHANGED
 2020-03-25 - Update 88_Timer.pm
 
-- update to last stable preRelease
+- revised SVN numbre
+2020-02-18 - Update 88_Timer.pm
+
+- fix FILTER. (if user use FHEM cmd line in one room and room is not named Timer)
 2020-02-02 - Update 88_Timer.pm
 
-- fix list "Probably associated with" Forum: #1015549
-2020-01-22 - Automaitc updated controls and CHANGED
+- revised SVN revision
+2020-01-28 - Update 88_Timer.pm
+
+- added Timer_PawList check, if attribute "Timer_\d{2}_set" changed
+2020-01-28 - Update 88_Timer.pm
+
+- fix Timer_PawList after delete attr
+2020-01-24 - Merge branch 'pre-release' of https://github.com/fhem/Timer into pre-release
+2020-01-24 - Update 88_Timer.pm
+
+- fix Timer_PawList with DEF
+2020-01-23 - Update 88_Timer.pm
+
+- revised code for list "Probably associated with"
 2020-01-22 - Update README.md
 2020-01-22 - Update README.md
 2020-01-22 - Merge branch 'pre-release' of https://github.com/fhem/Timer into pre-release
